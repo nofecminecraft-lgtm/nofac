@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "lightclient",
+  "version": "${version}",
+  "name": "Light Client",
+  "description": "A configurable client-side GUI, keybind manager, movement HUD and cobweb test helper.",
+  "authors": ["LightSMP"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.lightsmp.client.LightClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
